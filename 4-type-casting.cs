@@ -1,0 +1,10 @@
+double x = 122.01;
+Console.WriteLine($"the type of x is {x.GetType().Name}");
+int y = Convert.ToInt32(x);
+Console.WriteLine($"the type of y is {y.GetType().Name}");
+int t = 123;
+double z=Convert.ToDouble(t);
+Console.WriteLine($"the type of z is {z.GetType().Name}");
+string r=z.ToString();
+string s=Convert.ToString(t);
+Console.WriteLine($"the types of r and s are {r.GetType().Name} and {s.GetType().Name}");
