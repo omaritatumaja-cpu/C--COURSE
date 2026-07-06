@@ -9,8 +9,8 @@ class Car(int speed, string name)
     public string name = name;
     public int Speed
     {
-        get => _speed; // Expression-bodied getter
-        set => _speed = value > 500 ? 500 : value; // Expression-bodied setter with ternary logic
+        get;
+        set;
     }
 }
 

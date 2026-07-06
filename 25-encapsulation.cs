@@ -1,52 +1,29 @@
 using System;
 
-namespace MyFirstProgram
+namespace MyFirstProgram;
+
+// Using a Primary Constructor to define the 'speed' property directly
+class Car(int speed, string name)
 {
-    class Program
+    private int _speed = speed;
+    public string name = name;
+    public int Speed
     {
-        static void Main(string[] args)
-        {
-            //getters & setters = add security to fields by encapsulation
-            //                    They're accessors found within properties
-
-            // properties = combine aspects of both fields and methods (share name with a field)
-            // get accessor = used to return the property value
-            // set accessor = used to assign a new value
-            // value keyword = defines the value being assigned by the set (parameter)
-
-            Car car = new Car(400);
-
-            car.Speed = 1000000000;
-
-            Console.WriteLine(car.Speed);
-
-            Console.ReadKey();
-        }
+        get => _speed; // Expression-bodied getter
+        set => _speed = value > 500 ? 500 : value; // Expression-bodied setter with ternary logic
     }
-    class Car
+}
+
+class Program
+{
+    static void Main()
     {
-        private int speed;
-
-        public Car(int speed)
-        {
-            Speed = speed;
-        }
-
-        public int Speed
-        {
-            get { return speed; }
-            set
-            {
-                if (value > 500)
-                {
-                    speed = 500;
-                }
-                else
-                {
-                    speed = value;
-                }
-            }
-        }
-
+        var car = new Car(400, "abu");
+        car.Speed = 1000000000;
+        Console.WriteLine(car.Speed); // Output: 500
+        car.Speed = 300;
+        Console.WriteLine(car.Speed);
+        Console.WriteLine(car.name);
+        // Console.WriteLine(car.speed); // output :error CS1061
     }
 }

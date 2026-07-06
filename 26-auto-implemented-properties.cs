@@ -13,8 +13,9 @@ namespace MyFirstProgram
             Car car = new Car("Porsche");
 
             Console.WriteLine(car.Model);
-
+            car.Model = "BMW";
             Console.ReadKey();
+            Console.WriteLine(car.Model);
         }
     }
 
