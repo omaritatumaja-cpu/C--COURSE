@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\C#-COURSE\MyFirstProgram\bin\Debug\net10.0\MyFirstProgram.exe
+C:\Users\HP\Desktop\C#-COURSE\MyFirstProgram\bin\Debug\net10.0\MyFirstProgram.deps.json
+C:\Users\HP\Desktop\C#-COURSE\MyFirstProgram\bin\Debug\net10.0\MyFirstProgram.runtimeconfig.json
+C:\Users\HP\Desktop\C#-COURSE\MyFirstProgram\bin\Debug\net10.0\MyFirstProgram.dll
+C:\Users\HP\Desktop\C#-COURSE\MyFirstProgram\bin\Debug\net10.0\MyFirstProgram.pdb
+C:\Users\HP\Desktop\C#-COURSE\MyFirstProgram\obj\Debug\net10.0\MyFirstProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\C#-COURSE\MyFirstProgram\obj\Debug\net10.0\MyFirstProgram.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\C#-COURSE\MyFirstProgram\obj\Debug\net10.0\MyFirstProgram.AssemblyInfo.cs
+C:\Users\HP\Desktop\C#-COURSE\MyFirstProgram\obj\Debug\net10.0\MyFirstProgram.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\C#-COURSE\MyFirstProgram\obj\Debug\net10.0\MyFirstProgram.sourcelink.json
+C:\Users\HP\Desktop\C#-COURSE\MyFirstProgram\obj\Debug\net10.0\MyFirstProgram.dll
+C:\Users\HP\Desktop\C#-COURSE\MyFirstProgram\obj\Debug\net10.0\refint\MyFirstProgram.dll
+C:\Users\HP\Desktop\C#-COURSE\MyFirstProgram\obj\Debug\net10.0\MyFirstProgram.pdb
+C:\Users\HP\Desktop\C#-COURSE\MyFirstProgram\obj\Debug\net10.0\MyFirstProgram.genruntimeconfig.cache
+C:\Users\HP\Desktop\C#-COURSE\MyFirstProgram\obj\Debug\net10.0\ref\MyFirstProgram.dll
